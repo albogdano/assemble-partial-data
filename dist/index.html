@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Example</title>
+  </head>
+  <body>
+    <div class="container bs-docs-container">
+      
+<div class="bs-docs-section">
+  <div class="page-header">
+    <h1>
+      Testing!
+    </h1>
+  </div>
+  <div>
+    <h3>Partial Data:</h3>
+    <code><pre> 
+      {
+      
+        "layout" : [
+          
+            {
+              "value" : "default.hbs",
+              "partials": [ md1,md2,md3,sec ]
+            }
+          
+        ],
+      
+        "title" : [
+          
+            {
+              "value" : "Markdown Helpers",
+              "partials": [ md1,md2,md3 ]
+            }
+          
+            {
+              "value" : "Top Secret",
+              "partials": [ sec ]
+            }
+          
+        ],
+      
+        "description" : [
+          
+            {
+              "value" : "Examples of how to compile markdown files to HTML using Handlebars helpers.",
+              "partials": [ md1,md2,md3 ]
+            }
+          
+        ],
+      
+        "testvar" : [
+          
+            {
+              "value" : "12345",
+              "partials": [ md1 ]
+            }
+          
+            {
+              "value" : "67890",
+              "partials": [ md2 ]
+            }
+          
+            {
+              "value" : "33333",
+              "partials": [ md3 ]
+            }
+          
+        ],
+      
+        "destpath" : [
+          
+            {
+              "value" : "&lt;%= site.dest %&gt;",
+              "partials": [ md1,md2 ]
+            }
+          
+        ],
+      
+      }
+    </pre></code>
+  </div>
+</div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bs-footer" role="contentinfo">
+  <div class="container">
+    <p>Made with <a href="https://github.com/assemble/assemble" target="_blank">Assemble</a>, the static site generator for Node.js, Grunt.js and Yeoman.</p>
+    <hr>
+</footer>
+
+  </body>
+</html>
