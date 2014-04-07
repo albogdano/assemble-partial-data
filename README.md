@@ -15,22 +15,8 @@ $ npm install assemble-partial-data --save-dev
 ```
 
 ### Register the plugin
-assemble-partial-data
-The easiest way to register the plugin with [Assemble](https://github.com/assemble/assemble) 
-is to add the module to `devDependencies` and `keywords` in your project's package.json:
 
-```
-{
-  "devDependencies": {
-    "assemble-partial-data": "*"
-  },
-  "keywords": [
-    "assemble-partial-data"
-  ]
-}
-```
-
-Alternatively, to register the plugin explicitly in the Gruntfile:
+To register the plugin explicitly in the Gruntfile:
 
 ```
 grunt.initConfig({
