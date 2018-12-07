@@ -1,7 +1,7 @@
 {
   "name": "assemble-partial-data",
   "description": "Plugin for Assemble which collects data from partials and groups it by key. Each value in the data hash has a list of associated partials.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "https://github.com/albogdano/assemble-partial-data",
   "author": {
     "name": "Alex Bogdanovski",
