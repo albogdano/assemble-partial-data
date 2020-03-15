@@ -22,7 +22,8 @@
     "grunt": "1.0.4",
     "grunt-contrib-clean": "2.0.0",
     "grunt-contrib-copy": "1.0.0",
-    "lodash": "4.17.15"
+    "lodash": "4.17.15",
+    "minimist": ">=1.2.2"
   },
   "keywords": [
     "assemble",
